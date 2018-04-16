@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		30EB935620844F3400CB030D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB935520844F3400CB030D /* AppDelegate.m */; };
-		30EB935920844F3400CB030D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB935820844F3400CB030D /* ViewController.m */; };
 		30EB935C20844F3400CB030D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EB935A20844F3400CB030D /* Main.storyboard */; };
 		30EB935E20844F3400CB030D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EB935D20844F3400CB030D /* Assets.xcassets */; };
 		30EB936120844F3400CB030D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EB935F20844F3400CB030D /* LaunchScreen.storyboard */; };
 		30EB936420844F3400CB030D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB936320844F3400CB030D /* main.m */; };
+		30EB936C20844F5000CB030D /* CoolNavi.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB936B20844F5000CB030D /* CoolNavi.m */; };
+		30EB936F2084553500CB030D /* UIViewController+XHPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB936E2084553500CB030D /* UIViewController+XHPhoto.m */; };
+		30EB93722084879E00CB030D /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB93702084879E00CB030D /* UIColor+HexString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30EB935120844F3400CB030D /* UsefulClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsefulClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EB935420844F3400CB030D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30EB935520844F3400CB030D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		30EB935720844F3400CB030D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		30EB935820844F3400CB030D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		30EB935B20844F3400CB030D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30EB935D20844F3400CB030D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30EB936020844F3400CB030D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30EB936220844F3400CB030D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30EB936320844F3400CB030D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30EB936A20844F4F00CB030D /* CoolNavi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoolNavi.h; sourceTree = "<group>"; };
+		30EB936B20844F5000CB030D /* CoolNavi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoolNavi.m; sourceTree = "<group>"; };
+		30EB936D2084553500CB030D /* UIViewController+XHPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XHPhoto.h"; sourceTree = "<group>"; };
+		30EB936E2084553500CB030D /* UIViewController+XHPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XHPhoto.m"; sourceTree = "<group>"; };
+		30EB93702084879E00CB030D /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		30EB93712084879E00CB030D /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,13 @@
 			children = (
 				30EB935420844F3400CB030D /* AppDelegate.h */,
 				30EB935520844F3400CB030D /* AppDelegate.m */,
-				30EB935720844F3400CB030D /* ViewController.h */,
-				30EB935820844F3400CB030D /* ViewController.m */,
 				30EB935A20844F3400CB030D /* Main.storyboard */,
+				30EB936A20844F4F00CB030D /* CoolNavi.h */,
+				30EB936B20844F5000CB030D /* CoolNavi.m */,
+				30EB936D2084553500CB030D /* UIViewController+XHPhoto.h */,
+				30EB936E2084553500CB030D /* UIViewController+XHPhoto.m */,
+				30EB93712084879E00CB030D /* UIColor+HexString.h */,
+				30EB93702084879E00CB030D /* UIColor+HexString.m */,
 				30EB935D20844F3400CB030D /* Assets.xcassets */,
 				30EB935F20844F3400CB030D /* LaunchScreen.storyboard */,
 				30EB936220844F3400CB030D /* Info.plist */,
@@ -142,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30EB935920844F3400CB030D /* ViewController.m in Sources */,
+				30EB93722084879E00CB030D /* UIColor+HexString.m in Sources */,
+				30EB936C20844F5000CB030D /* CoolNavi.m in Sources */,
 				30EB936420844F3400CB030D /* main.m in Sources */,
 				30EB935620844F3400CB030D /* AppDelegate.m in Sources */,
+				30EB936F2084553500CB030D /* UIViewController+XHPhoto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
